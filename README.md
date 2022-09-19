@@ -41,9 +41,11 @@ Test
 03. Questions you would ask and your own answers and assumptions
 	What are the none function requirments I have tested and missed from my test cases.
 
-04. Desicions of approach I took
+04. Desicions of approach I took :- 
+
 When I look at the code I could see that both FE and BE call multiple calls to consume data from APIs.
 From backend perspective we are unalbe to handle it we do not have authoroty to change third party API. So we must have to call one by one and collect respones as one list.
+
 But fronend we can modify and send list of ids unless sending one id and consume response and then send another id. I have modified both node backend and angular front for that.
 
 05. Any other notes. 
