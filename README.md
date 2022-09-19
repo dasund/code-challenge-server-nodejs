@@ -22,7 +22,9 @@ Please refer to the provided document for the code challenge requirements.
 API call was looping for each an every products in products list. I have added new backend API endpoint
 to send list of IDs and take list of temperature objects. Frontend code added to read that . Now we only need to send one API call. That will reduct bandwidth usage and faster. 
 
-02.  What I improve more next if I have time enhancement :-
+02.  What I improve more next if I have time  :-
+
+Code enhancement
 
     * Need to integrate security to validate frontend request with token at http header.
     
