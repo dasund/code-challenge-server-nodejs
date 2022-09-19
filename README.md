@@ -26,9 +26,13 @@ to send list of IDs and take list of temperature objects. Frontend code added to
 
 Enhancement
     * Need to integrate security to validate frontend request with token at http header.
+    
     * Ensure https://temperature-sensor-service.herokuapp.com API response it properly validated.
+    
     * Mapped HTTP codes properly for success,error and etc (404,409,500,200,201 ....)
+    
     * How to manage too much calls when network packet block and network queue and release calls. Then there will be same call duplicate since FE send the call in every time span (2000 ms). If pool has same call then we can send same object as response. 
+    
     * Imlpement a Util to consume rest data from temperature-sensor-service
 Test 
 	* Validate api request body in case of empty.
